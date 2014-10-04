@@ -1,0 +1,56 @@
+/*
+Theme Name:     Story Child
+Author:         Pexeto
+Author URI:     http://pexetothemes.com
+Template:       thestory
+*/
+
+@import url("../thestory/style.css");
+
+/* PHC endret på kode i The Story: styles.css linje: 1034
+ * background-color: #252525;
+ */
+.header-wrapper {
+  position: relative;
+  background-color: #ffa5d2;
+  width: 100%;
+}
+
+/* PHC endret på kode i The Story: styles.css linje: 1573
+ * font-size: 12px;
+ */
+
+.nav-menu ul li a {
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* PHC lagt til kode i forhold til The Story
+ * i <p>-tag. Ment for forsiden ("CURIOUSPINKS")
+ */
+
+p.forside {
+	color:#555555;
+	font-size:16px;
+}
+
+/* PHC endret på kode i The Story: styles.css linje: 1058
+ * margin: 90px auto;
+ */
+#content-container .section-boxed {
+  margin: 20px auto;
+}
+
+/* PHC endret på kode i The Story: bootstrap.min.css linje: 10
+ * background-color: #fff;
+ */
+.layout-full{
+  background-color: #FFF0F7;
+}
